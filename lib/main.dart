@@ -156,7 +156,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('To-Do App'),
+        title: const Text('SBQ ToDo App'),
       ),
       body: ListView.builder(
         itemCount: _items.length,
